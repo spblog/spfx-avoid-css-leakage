@@ -1,26 +1,3 @@
-## spfx-materialize
+# Sample code, which demonstrates how to prevent css leakage in SharePoint Framework projects. 
 
-This is where you include your WebPart documentation.
-
-### Building the code
-
-```bash
-git clone the repo
-npm i
-npm i -g gulp
-gulp
-```
-
-This package produces the following:
-
-* lib/* - intermediate-stage commonjs build artifacts
-* dist/* - the bundled script, along with other resources
-* deploy/* - all resources which should be uploaded to a CDN.
-
-### Build options
-
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
+Blog post - [SharePoint Framework tips & tricks: avoid css styles leaking from third party libraries](https://spblog.net/post/2020/02/26/sharepoint-framework-tips-and-tricks-avoid-css-styles-leaking-from-third-party-libraries)
